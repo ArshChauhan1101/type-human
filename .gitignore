@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/ 
+bin/
+obj/
+
+# Environment Variables
+.env
+appsettings.Development.json
+
+# IDE Files
+.vscode/
+.idea/
+*.rsuser
+*.suo
