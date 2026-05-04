@@ -1,3 +1,5 @@
+# Type Human 
+
 **Type Human** is a productivity-focused browser extension that transforms AI-generated text into natural, context-specific human writing. Avoid AI-detection flags while maintaining your unique professional voice.
 
 ## Architecture & Tech Stack
