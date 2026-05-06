@@ -1,0 +1,6 @@
+@TypeHuman.Api_HostAddress = http://localhost:5210
+
+GET {{TypeHuman.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Type Human - AI Humanizer</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Type Human</h2>
+            <p class="subtitle">Bypass detectors, keep your voice.</p>
+        </div>
+
+        <div class="input-group">
+            <label for="persona-select">Select Persona</label>
+            <select id="persona-select">
+                <option value="casual">Casual (Normal Person)</option>
+                <option value="ceo">CEO / Executive</option>
+                <option value="child">Child / Simple Tone</option>
+                <option value="academic">Academic / Formal</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="input-text">Paste AI-generated text below:</label>
+            <textarea id="input-text" placeholder="Paste your text here..." rows="5"></textarea>
+        </div>
+
+        <button id="transform-btn" class="primary-btn">Transform Text</button>
+
+        <div class="output-group">
+            <label for="output-text">Result</label>
+            <textarea id="output-text" placeholder="Transformed text will appear here..." rows="5" readonly></textarea>
+        </div>
+
+        <button id="copy-btn" class="secondary-btn">Copy Text</button>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
